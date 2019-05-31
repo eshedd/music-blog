@@ -185,3 +185,10 @@ li a:hover:not(.active) {
   background-color: ;
   color: black;
 }
+
+/* This fixes the margin error with the text next to the nav bar */
+.marginfix {
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+}
