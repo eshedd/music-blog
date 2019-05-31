@@ -157,3 +157,31 @@ p {
     margin-left: 10px;
     margin-right: 10px;
 }
+/* NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: grey;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: black;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: ;
+  color: black;
+}
