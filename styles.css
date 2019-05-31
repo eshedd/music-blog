@@ -1,198 +1,52 @@
-.pagetop {
-    display: flex;
-    float: right;
-}
-
-#redirect {
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px rgb(255, 177, 33);
-    transition: 0.2s;
-    font-family: Arial;
-}
-#redirect:hover {
-    color: white;
-    text-decoration: none;
-    transform: scale(1.1);
-}
-
-.collapsible {
-    margin-top: 8px;
-    margin-left: 8px;
-    font-family: 'Raleway';
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    padding-right: 47px;
-    padding-left: 47px;
-    border: solid black 2px;
-    text-align: center;
-    outline: none;
-    font-size: 20px;
-}
-
-.active, .collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    padding: 0 18px;
-    background-color: orange;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    width: 160px;
-    position:relative;
-    z-index: 9999;
-    margin-left: 8px;
-}
-
-.content h2 {
-    border-bottom: solid rgb(255, 177, 33);
-    font-family: 'Raleway';
-}
-
-.nopush {
-    position: absolute;
-    top: 80px;
-    width:100%;
-}
-
-.divide {
-    margin-top: 10px;
-    height: 2px;
-    background-color: orange;
-}
-
-header {
-    font-family: 'Raleway';
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-p {
-    font-family: 'Raleway';
-}
-
-.featured {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.big {
-    position: relative;
-}
-
-.gradientbig::after {
-    display: block;
-    position: relative;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000 100%);
-    margin-top: -150px;
-    height: 150px;
-    width: 100%;
-    content: '';
-}
-
-.gradientsmall::after {
-    display: block;
-    position: relative;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000 100%);
-    margin-top: -50px;
-    height: 50px;
-    width: 100%;
-    content: '';
-}
-
-.big img {
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    z-index: 9999;
-}
-
-.smallcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-}
-
-.small img {
-    width: 250px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.titlebig {
-    font-family: 'Raleway';
-    position: absolute;
-    color:white;
-    bottom:0px;
-    left: 30px;
-    right: 30px;
-    z-index: 0;
-}
-
-.titlesmall1 {
-    font-family: 'Raleway';
-    position: absolute;
-    color:white;
-    bottom:140px;
-    z-index: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.titlesmall2 {
-    font-family: 'Raleway';
-    position: absolute;
-    color:white;
-    bottom:-10px;
-    z-index: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-/* NAV BAR */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-li a {
-  display: block;
-  color: grey;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: black;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: ;
-  color: black;
-}
-
-/* This fixes the margin error with the text next to the nav bar */
-.marginfix {
-  margin-left:25%;
-  padding:1px 16px;
-  height:1000px;
-}
-
-body {
-    cursor:wait;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../styles.css" rel="stylesheet" type="text/css">
+        <style>
+            html {
+                background-image: linear-gradient(to left, #B9EB00, #10ff00);
+            }
+            h1 {
+                text-align: center;
+                color: #ff006a;
+                font-variant:small-caps;
+                font-family:monospace;
+                font-size: 37.54px;
+                background: url(https://f4.bcbits.com/img/a2982924713_10.jpg);
+                background-size: 900px 100px;
+            }
+            html {
+                background-image: linear-gradient(to left, #B9EB00, #10ff00);}
+                ul {
+                  text-color: #00f6ff;
+                  background-color: blue;
+              marquee {
+                  font-family: "Comic Sans MS", cursive, sans-serif; 
+                }
+              
+                }
+                }
+            }
+        </style>
+    </head>
+    <marquee> haha yes feel my pain  </marquee>
+    <body>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li style: color=green><a class="active" href="./corwin.html">Metal</a></li>
+        <li><a href="./hiro.html">Progressive</a></li>
+        <li><a href="./edawg.html">Funk</a></li>
+        <li><a href="./daniel.html">Elevator</a></li>
+        <li><a href="./sam.html">Flamenco Rock</a></li>
+    </ul>
+        <div class="marginfix">
+         
+            <h1>
+                <blink>
+                    technical symphonic melodic progressive blackened depressive deathgrind
+                </blink>
+            </h1>
+            <p>no u</p>
+        </div>
+    </body>
+</html>
