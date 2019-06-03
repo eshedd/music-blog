@@ -4,10 +4,27 @@
         <title>Funk</title>
         <link href="../styles.css" rel="stylesheet" type="text/css">
         <style>
+            .big-ol-container {
+                background-color: black;
+                height: 100%;
+            }
             .container {
                 display: flex;
-                justify-content: center;
+                text-align: center;
                 flex-wrap: wrap;
+                flex-direction: column;
+                padding: 50px;
+                border-bottom: solid;
+                border-color: white;
+            }
+            .container img {
+                max-width: 100%;
+                height: auto;
+            }
+            @media (min-width: 800px) {
+                .container p {
+                    font-size: 20px;
+                }
             }
         </style>
     </head>
@@ -21,10 +38,15 @@
             <li><a href="./sam.html">Flamenco Rock</a></li>
         </ul>
         <div class="marginfix">
-            <div class="container">
-                <img src="../LogoNeon.png">
-                <img src="../LogoWhite.png">
-                <h1>Please No.</h1>
+            <div class="big-ol-container">
+                <div class="container">
+                    <img src="../LogoNeon.png">
+                    <p style="color: white;">Please No.</p>
+                </div>
+                <div class="container">
+                    <img src="../LogoWhite.png">
+                    <p style="color: white;">Please yes.</p>
+                </div>
             </div>
         </div>
     </body>
