@@ -1,0 +1,31 @@
+html {
+    background-image: url("../newname.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.naenae {
+    background-color:#2bef15;
+    text-align:center;
+    color:#f922e4;
+    margin-left:52%;
+    margin-right:28%;
+    padding:1px 16px;
+    
+}
+
+.explain {
+    background-color:#2bef15;
+    color:#f922e4;
+    margin-left:25%;
+    margin-bottom:90%;
+    padding:1px 16px;
+    text-align:center;
+    font-size:150%;
+    
+}
+
+.AAAAAHHHHHH {
+    margin-left:45%;
+    padding-top:10px;
+    padding-bottom:5px;
+}
