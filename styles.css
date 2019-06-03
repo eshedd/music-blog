@@ -1,3 +1,4 @@
+
 .pagetop {
     display: flex;
     float: right;
@@ -193,6 +194,4 @@ li a:hover:not(.active) {
   height:1000px;
 }
 
-body {
-    cursor:wait;
-}
+
