@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Edawg</title>
+    <title>Funk</title>
     <link href="../styles.css" rel="stylesheet" type="text/css">
+    <style>
+        .big-ol-container {
+            background-color: black;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 50px;
+            border-bottom: solid;
+            border-color: white;
+        }
+        .container img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (min-width: 800px) {
+            .container p {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-<ul>
+<ul class="navbar">
     <li><a href="../index.html">Home</a></li>
     <li><a href="./corwin.html">Metal</a></li>
     <li><a href="./hiro.html">Progressive</a></li>
@@ -13,6 +37,17 @@
     <li><a href="./daniel.html">Elevator</a></li>
     <li><a href="./sam.html">Flamenco Rock</a></li>
 </ul>
-<h1>yeet</h1>
+<div class="marginfix">
+    <div class="big-ol-container">
+        <div class="container">
+            <img src="../LogoNeon.png">
+            <p style="color: white;">Please No.</p>
+        </div>
+        <div class="container">
+            <img src="../LogoWhite.png">
+            <p style="color: white;">Please yes.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
