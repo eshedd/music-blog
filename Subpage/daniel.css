@@ -1,21 +1,30 @@
 html {
-    background-image: url("../newname.jpg");
+    background-image: url("../emojee.jpg");
     background-size:100% 100%;
     background-repeat:no-repeat;
 }
 .naenae {
-    background-color:#2bef15;
+    
     text-align:center;
     color:#f922e4;
     margin-left:52%;
     margin-right:28%;
-    padding:1px 16px;
+    padding:1px 15px;
     
 }
 
-.explain {
+h1 {
     background-color:#2bef15;
-    color:#f922e4;
+    transform:scaleY(10);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.explain {
+    
+    transform:scaleY(5);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color:#2bef15;
+    color:red;
     margin-left:25%;
     margin-bottom:90%;
     padding:1px 16px;
@@ -26,6 +35,32 @@ html {
 
 .AAAAAHHHHHH {
     margin-left:45%;
-    padding-top:10px;
-    padding-bottom:5px;
+    border-style:solid;
+    border-color:red;
+    margin-right:20.5%;
+    border-width:8px;
+    
 }
+
+marquee {
+    transform:scaleY(5);
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    letter-spacing:60px;
+    font-size:800%;
+    color:red;
+    text-decoration: underline;
+    text-shadow: 15px 15px #f922e4;
+    
+}
+
+ul {
+    z-index:1;
+}
+
+.FORTNITE {
+    position:fixed;
+    bottom:50%;
+    width:100%;
+    
+}
+
