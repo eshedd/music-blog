@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Edawg</title>
+    <title>Funk</title>
     <link href="../styles.css" rel="stylesheet" type="text/css">
+    <style>
+        .big-ol-container {
+            background-color: black;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding-top: 50px;
+            border-bottom: solid;
+            border-color: white;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        .container img {
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 45%;
+            height: 25%;
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-<ul>
+<ul class="navbar">
     <li><a href="../index.html">Home</a></li>
     <li><a href="./corwin.html">Metal</a></li>
     <li><a href="./hiro.html">Progressive</a></li>
@@ -13,6 +42,17 @@
     <li><a href="./daniel.html">Elevator</a></li>
     <li><a href="./sam.html">Flamenco Rock</a></li>
 </ul>
-<h1>yeet</h1>
+<div class="marginfix">
+    <div class="big-ol-container">
+        <div class="container">
+            <img src="../bulfpuck.jpg">
+            <p style="color: white;">Vulfpeck, a funk band originating in Michigan and founded in 2011. I super-duper dig their unique approaches in establishing funky grooves for the listener to get lost in during their songs. Take "Cory Wong," for example, perhaps my favorite song of theirs with such an upbeat and quick speed, and then compare it to another one of their songs, like the laid back and sway-full "Birds of a Feather, We Rock Together." These are two very different pieces, yet both have me bobbing like a chicken with a robotically-enhanced neck.</p>
+        </div>
+        <div class="container">
+            <img src="../kool&thegang.jpg">
+            <p style="color: white;">Kool & the Gang. The funky wizards I was raised on. How could I not included these guys? With classics like "Jungle Boogie" and "Get Down on It" under their belt, I think it's safe to say that their work is a pillar of the funk and disco genres of which many have pulled inspiration.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
