@@ -43,6 +43,7 @@ h1 {
 }
 
 marquee {
+    
     transform:scaleY(5);
     font-family: "Comic Sans MS", cursive, sans-serif; 
     letter-spacing:60px;
@@ -58,9 +59,11 @@ ul {
 }
 
 .FORTNITE {
-    position:fixed;
+    
+    position:absolute;
     bottom:50%;
     width:100%;
     
 }
+
 
